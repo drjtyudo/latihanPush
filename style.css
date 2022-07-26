@@ -1,0 +1,413 @@
+/* poppins font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    background-color: #242128;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    color: white;
+}
+
+/* All in css */
+
+p {
+    color: rgb(167, 167, 167);
+}
+
+.tittle {
+    letter-spacing: 1.8px;
+}
+
+.tittle span {
+    color: rgb(107, 90, 210);
+}
+
+.info-tittle {
+    color: rgb(167, 167, 167);
+}
+
+.btn {
+    background-color: rgb(107, 90, 210) !important;
+}
+
+
+/* End */
+
+
+
+/* navbar */
+
+.navbar {
+    background-color: #242128 !important;
+}
+
+.nav-item {
+    margin-left: 30px;
+}
+
+.navbar-brand {
+    color: rgb(211, 211, 211) !important;
+}
+
+.nav-item a {
+    font-size: 1.1rem;
+    color: rgb(211, 211, 211) !important;
+}
+
+/* End */
+
+
+/* jumotron */
+
+.jumbotron {
+    margin-top: 100px;
+    height: 80vh;
+}
+
+.jumbotron h1 {
+    font-weight: bold;
+}
+
+.jumbotron h4, .jumbotron p {
+    color: rgb(167, 167, 167);
+}
+
+.jumbotron p {
+    font-size: 1.2rem;
+}
+
+.jumbotron .btn {
+    padding: 12px 20px;
+    border-radius: 10px;
+}
+
+.jumbotron .btn i {
+    margin-left: 7px;
+}
+
+.jumbotron img {
+    width: 300px;
+}
+
+.jumbotron ul {
+    display: flex;
+    list-style: none;
+    margin-top: 100px;
+}
+
+.jumbotron ul li {
+    margin-left: 15px;
+    font-size: 1.2rem;
+}
+
+/* end */
+
+
+/* About */
+.about {
+    margin-top: 100px;
+    padding: 150px 0;
+}
+
+.about .content {
+    margin-top: 200px;
+}
+
+.about img {
+    border-radius: 26% 74% 55% 45% / 56% 38% 62% 44%  ;
+}
+
+
+.about .project .point span {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.about .project{
+    padding: 0 50px;
+}
+
+.about .project .point p {
+    font-size: 12px;
+}
+
+.about .btn {
+    border-radius: 10px;
+}
+
+.about .bi-download {
+    margin-left:  8px;
+}
+
+.modal-title, .modal-body {
+    color: black !important;
+}
+
+
+
+/* End */
+
+
+/* Social media */
+
+.social-media {
+    background: rgba( 68, 68, 65, 0.7 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 7.5px );
+    -webkit-backdrop-filter: blur( 7.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    max-width: 700px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 100px;
+}
+
+.social-media ul {
+    padding-top: 10px;
+    width: 400px;
+}
+
+.social-media ul li i {
+    color: white;
+    font-size: 30px;
+}
+/* End */
+
+
+
+/* Skill */
+
+    .skills {
+        margin-top: 20px;
+        padding: 150px 30px;
+    }
+
+    .skills .content {
+    margin-top: 100px;
+    }
+
+    .skills .content-progress p{
+        margin-top: 20px;
+        margin-bottom: 7px;
+    }
+
+    .skills .progress-bar {
+        background-color: rgb(107, 90, 210);
+    }
+
+/* End */
+
+/* content */
+    .portofolio {
+        margin-top: 50px;
+        padding: 100px 0;
+    }
+    .portofolio .content {
+        margin-top: 125px;
+    }
+
+/* End */
+
+/* Footer */
+footer {
+    background-color:rgb(107, 90, 210);
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+}
+
+footer a:hover {
+    color: rgb(211, 211, 211);
+}
+
+/* End */
+
+/* scroll top */
+.scrollup {
+  position: fixed;
+  right: 1rem;
+  bottom: -20%;
+  background-color: rgb(107, 90, 210);
+  opacity: 0.8;
+  padding: 0 0.3rem;
+  border-radius: 0.4rem;
+  z-index: 10;
+  transition: 0.4s;
+}
+
+.scrollup:hover {
+  background-color: rgb(88, 72, 173);
+}
+
+.scrollup_icon {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.show-scroll {
+  bottom: 5rem;
+}
+/* end */
+
+
+
+/* breakPoint */
+
+/* Tablet */ 
+
+/* @media (min-width: 768px) and (max-width: 1024px) {
+    .jumbotron {
+        padding: 0;
+    }  
+}
+
+
+/* mobile phone */
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+
+    /* All in css */
+    .content {
+        margin-top: 100px;
+    }
+
+    .info-tittle {
+        margin-top: 0 !important;
+    }
+
+    /* End */
+
+    /* Jumbotron */
+
+    .jumbotron {
+        margin-top: 50px;
+        padding: 0 30px;
+    }
+
+    .jumbotron h1 {
+        font-size: 36px !important;
+    }
+
+    .jumbotron h4 {
+        font-size: 20px !important;
+    }
+
+    .jumbotron p {
+        font-size: 1.1rem;
+    }
+
+    .jumbotron img {
+        width: 200px;
+        position: absolute;
+        margin-left: 120px;
+    }
+
+    .jumbotron ul {
+        position: relative;
+        float: left;
+        bottom: 50px;
+        right: 45px;
+    }
+
+    .jumbotron .medsos {
+        position: absolute;
+        float:left;
+        left: -1px;
+        margin-top: 100px;
+    }
+
+    /* End */
+
+    /* About */
+    .about {
+        padding: 10px;
+    }
+
+    .about img {
+        border-radius: 50% 50% 48% 52% / 27% 25% 75% 73% ;
+        display: flex;
+        margin: 0 auto;
+        padding-left: 30px;
+    }
+
+    .about .content {
+        padding-right: 20px;
+        margin-top: 100px;
+    }
+
+    .about .project{
+    padding: 0 30px;
+    }
+
+    .about p {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .about .project .point p {
+        margin-top: 5px;
+    }
+
+    .about .btn {
+        display: flex;
+        margin: 0 auto;
+    }
+      /* End */
+
+
+    /* skills */
+    .skills {
+        margin-top: 10px;
+    }
+
+    .skills h5{
+        color: rgb(204, 204, 204);
+    }
+    /* End */
+
+    /* Portofolio */
+
+    .portofolio {
+        margin-top: 0;
+        padding: 100px 0;
+    }
+
+    .portofolio .content {
+        padding: 0 30px;
+        margin-top: 80px;
+    }
+
+    .portofolio img {
+        display: flex;
+        margin: 0 auto;
+    }
+    
+    .portofolio h5 {
+        margin-top: 50px;
+    }
+
+    /* End */
+
+
+    /* Footer */
+    footer {
+        padding: 30px 15px;
+    }
+
+    footer ul {
+        margin-top: 30px;
+    }
+    /* End */
+
+}
+
+/* End */
+
+

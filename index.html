@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- My css -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="animated.css" />
+    <!-- icon bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+    />
+
+    <!-- unicons -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+
+    <title>Drajat Yudo</title>
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-light p-3">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">Drajat Yudo</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav m-auto fw-bold">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                ><i class="bi bi-house-door"></i> Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about"
+                ><i class="bi bi-person"></i> About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills"
+                ><i class="bi bi-code"></i> Skills</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portofolio"
+                ><i class="bi bi-journal-code"></i> Portfolio</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- end -->
+
+    <!-- Jumbotron -->
+    <div class="jumbotron">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-4">
+            <h1 class="display-4 fs-1">Hi, <span class="auto-input"></span></h1>
+            <h4 class="fw-bold fs-4 mt-3">Front End Developer</h4>
+            <p class="mt-4">
+              Hello my name is Drajat Yudo Dimulyo I just learned coding in
+              Front End, my achievement is to become Full Stack Developer
+            </p>
+            <a href="Https://wa.me//62895632153700?"
+              ><button type="button" class="btn btn-primary mt-3">
+                Contact Me <i class="uil uil-message"></i></button
+            ></a>
+          </div>
+          <div class="col-md-4 offset-1">
+            <img src="../img/character 18.svg" alt="" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <ul class="justify-content-center fw-bold">
+              <li>
+                <a href="Https://wa.me//62895632153700?"
+                  ><i class="bi bi-whatsapp text-success"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/drjt.yudo/"
+                  ><i class="bi bi-facebook"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://instagram.com/drjt_yudo?utm_medium=copy_link"
+                  ><i class="bi bi-instagram text-danger"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://open.spotify.com/playlist/1qpIIf0NkFfYmvQGHLiIbX?si=8d8a2b5ca3a648a2"
+                  ><i class="bi bi-spotify text-success"></i
+                ></a>
+              </li>
+            </ul>
+            <p class="text-center ms-5 medsos">Social Media</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End -->
+
+    <!-- About  -->
+    <section class="about" id="about">
+      <div class="container">
+        <h3 class="tittle text-center fw-bold">About <span>Me</span></h3>
+        <p class="info-tittle text-center">My introduction</p>
+        <div class="row justify-content-center content">
+          <div class="col-md-5">
+            <img class="w-75" src="../img/my-foto.jpeg" alt="" />
+          </div>
+          <div class="col-md-5 offset-1">
+            <p>
+              Hello my name is Drajat Yudo Dimulyo I just learned coding in
+              Front End, my achievement is to become Full Stack Developer.
+            </p>
+            <div
+              class="project d-flex justify-content-between mt-5 text-center"
+            >
+              <div class="point">
+                <span>00</span>
+                <p>year <br />experience</p>
+              </div>
+              <div class="point">
+                <span>00</span>
+                <p>Completed <br />project</p>
+              </div>
+              <div class="point">
+                <span>00</span>
+                <p>companies <br />worked</p>
+              </div>
+            </div>
+            <button
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+              class="btn btn-primary p-3 mt-5"
+            >
+              Download CV <i class="bi bi-download"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End -->
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Announcement!</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">Maaf CV tidak tersedia</div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary">Download</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- End -->
+
+    <!-- Skills -->
+
+    <section class="skills" id="skills">
+      <div class="container">
+        <h3 class="tittle text-center fw-bold">Skills</h3>
+        <p class="info-tittle text-center">My technical level</p>
+        <div class="row justify-content-center content">
+          <div class="col-md-5">
+            <h5>FRONT END</h5>
+            <p>
+              A front end developer has one general responsibility: to ensure
+              that website visitors can easily interact with the page. They do
+              this through the combination of design, technology and programming
+              to code a website's appearance, as well as taking care of
+              debugging
+            </p>
+          </div>
+          <div class="col-md-5 offset-1 content-progress">
+            <p>CSS</p>
+            <div class="progress">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                style="width: 85%"
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                85%
+              </div>
+            </div>
+            <p>Bootstrap</p>
+            <div class="progress">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                style="width: 70%"
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                70%
+              </div>
+            </div>
+            <p>JavaScript</p>
+            <div class="progress">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                style="width: 30%"
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                30%
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End -->
+
+    <!-- Portofolio -->
+    <section class="portofolio" id="portofolio">
+      <div class="container">
+        <h3 class="tittle text-center fw-bold">Portofolio</h3>
+        <p class="info-tittle text-center">Most recent work</p>
+        <div class="row justify-content-center content">
+          <div class="col-md-5">
+            <img class="w-75 rounded-3" src="../img/portofolio.jpeg" alt="" />
+          </div>
+          <div class="col-md-4">
+            <h5>Modern Website</h5>
+            <p>
+              Website adaptable to all device, with ui components and animated
+              interactions
+            </p>
+            <a href="https://cs-yudo.netlify.app/"
+              ><button
+                type="button"
+                class="btn btn-primary mt-4 px-3 py-2 rounded-3"
+              >
+                Demo <i class="bi bi-arrow-right-short"></i></button
+            ></a>
+          </div>
+        </div>
+        <div class="row justify-content-center content">
+          <div class="col-md-5">
+            <img class="w-75" src="../img/sertifikat.jpeg" alt="" />
+          </div>
+          <div class="col-md-4">
+            <h5>My Achievement</h5>
+            <p>
+              I got this certificate from the idcamp x dicoding scholarship at
+              <a href="dicoding.com">dicoding.com</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-3">
+            <h2 class="fw-bold">Drajat Yudo</h2>
+            <h6>Front End Developer</h6>
+          </div>
+          <div class="col-md-3 offset-1">
+            <ul class="d-flex list-unstyled">
+              <li><a href="">Service</a></li>
+              <li><a href="">Skills</a></li>
+              <li><a href="">Portofolio</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 offset-1">
+            <ul class="d-flex list-unstyled">
+              <li>
+                <a href="Https://wa.me//62895632153700?"
+                  ><i class="bi bi-whatsapp"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://instagram.com/drjt_yudo?utm_medium=copy_link"
+                  ><i class="bi bi-instagram"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/drjt.yudo/"
+                  ><i class="bi bi-facebook"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://open.spotify.com/playlist/1qpIIf0NkFfYmvQGHLiIbX?si=deb9286a12f74478"
+                  ><i class="bi bi-spotify"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End -->
+
+    <!-- sccroll top -->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-arrow-up scrollup_icon"></i>
+    </a>
+
+    <!-- End -->
+
+    <!-- --------------------------------------------------- -->
+
+    <!-- auto writer -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script>
+      let typed = new Typed(".auto-input", {
+        strings: ["i'm yudo", "i'm 16 y'o"],
+        typeSpeed: 100,
+        backSpeed: 100,
+        loop: true,
+      });
+    </script>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <script src="script.js"></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
